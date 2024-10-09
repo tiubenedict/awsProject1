@@ -32,14 +32,14 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tEyL0TcEBWnFBrxcmWIU-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/essential-rounded/66/Rounded-04-128.png" vertex="1" parent="1">
-          <mxGeometry x="115" y="46" width="53" height="53" as="geometry" />
-        </mxCell>
         <mxCell id="tEyL0TcEBWnFBrxcmWIU-11" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=0;fillColor=none;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="20" y="150" width="240" height="210" as="geometry" />
         </mxCell>
         <mxCell id="tEyL0TcEBWnFBrxcmWIU-10" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Logo.png;" vertex="1" parent="1">
           <mxGeometry x="30" y="130" width="53.24" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEyL0TcEBWnFBrxcmWIU-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/geosm-e-commerce/48/file-128.png" vertex="1" parent="1">
+          <mxGeometry x="121.5" y="50" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
