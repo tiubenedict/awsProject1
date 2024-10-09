@@ -5,7 +5,7 @@ Hosting a static website on Amazon S3
 This project demonstrates how to set up a static website using AWS services. The goal is to quickly host a website using S3 buckets.
 
 ## 🏗️ Architecture
-<img src="https://github.com/tiubenedict/awsProject1/blob/bde448b70d688abb4ca1035a2e5361b1cfbc1fb9/diagram.drawio.png" width="50%">
+<img src="https://github.com/tiubenedict/awsProject1/blob/bde448b70d688abb4ca1035a2e5361b1cfbc1fb9/diagram.drawio.png" width="25%">
 
 ## 🧱 Setup Instructions
 ### Step 1: Create an S3 Bucket
