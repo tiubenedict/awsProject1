@@ -13,8 +13,9 @@ This project demonstrates how to set up a static website using AWS services. The
 ### Step 1: Create an S3 Bucket and link it to your domain on Route 53
 1. Navigate to the S3 service
 2. Click on "Create bucket", use the exact name as your domain, and follow the prompts to create a new bucket
-3. Navigate to Route 53 service and click on the default Hosted Zone
-4. Click on "Create a new record", click on "Switch to wizard", choose "simple routing policy", and follow the prompts
+3. Enable Static Website Hosting, and choose your root html file, e.g. `index.html`
+4. Navigate to Route 53 service and click on the default Hosted Zone
+5. Click on "Create a new record", click on "Switch to wizard", choose "simple routing policy", and follow the prompts
 ### Step 2: Upload html files
 1. Navigate to your bucket
 2. Click the "Upload" button
@@ -30,7 +31,7 @@ This project demonstrates how to set up a static website using AWS services. The
 
 ## 🛠️ Configuration Details
 ### S3 Bucket Configuration
-- Bucket Name: `sample-domain.com` or any bucket name
+- Bucket Name: same as purchased domain (or any bucket name if not using your Route 53 domain)
 - Region: ap-southeast-2
 - Public Access: Enabled
 - ACL: Enabled
@@ -38,9 +39,20 @@ This project demonstrates how to set up a static website using AWS services. The
 - Static Website Hosting: Enabled
 
 ### Route 53 Domain Configuration
+- Record type: A
 - Endpoint: Alias to S3 website endpoint
 - Region: same as above
 - Evaluate Target Health: Off
 
 ## 🍽️ Usage Instructions
-- Access the S3 bucket at the domain purchased (or at URL given at Properties > Static Website Hosting, if not using your own domain)
+- Access the S3 bucket at the domain purchased (or at URL given at Properties > Static Website Hosting, if not using your Route 53 domain)
+
+## 🚨 Troubleshooting
+### Common Issues
+- **Issue 1:** Unable to access S3 bucket.
+
+  - **Solution:** Check the bucket's public access settings and ensure the bucket policy allows public access.
+
+- **Issue 2:** "No target available" when linking Hosted Zone to S3 bucket.
+
+  - **Solution:** Ensure that Static Website Hosting has been enabled first, and that your bucket name follows your domain name exactly, as in `sample-domain.com`
