@@ -1,4 +1,4 @@
-# awsProject1
+# Amazon S3
 Hosting a static website on Amazon S3
 
 ## 🌍 Overview
