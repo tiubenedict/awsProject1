@@ -3,7 +3,7 @@
 This project demonstrates how to set up a static website using AWS services. The goal is to quickly host a website using S3 buckets, while testing other features like timed presigned URLs, bucket policies, bucket versioning, and linking a domain to it through Amazon Route 53.
 
 ## 🏗️ Architecture
-<img src="https://github.com/tiubenedict/awsProject1/blob/bde448b70d688abb4ca1035a2e5361b1cfbc1fb9/diagram.drawio.png" width="25%">
+<img src="https://github.com/tiubenedict/awsProject1/blob/2cd356024f3d47880d625518aeaefd836b2b7ab4/diagram.drawio.png" width="25%">
 
 ## 🧱 Setup Instructions
 ### Step 0: Register a domain with Route 53
